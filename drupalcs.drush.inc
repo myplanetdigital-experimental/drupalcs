@@ -21,3 +21,11 @@ function drupalcs_drush_command() {
   );
   return $items;
 }
+
+/**
+ * Drush CodeSniff; Invokes the phpcs command for the Drupal Standard.
+ */
+function drush_drupalcs($command = '') {
+  $test = new PHP_CodeSniffer ();
+  drush_log(dt('Drush CodeSniff was run.'), 'notice');
+}
