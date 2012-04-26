@@ -14,7 +14,10 @@ Installation
 * Install required components.
 * Symlink the drupalcs directory into the standards folder for PHP_CodeSniffer.
   The code for that looks like this:
-      $ sudo ln -sv /path/to/drupalcs/Drupal $(pear config-get php_dir)/PHP/CodeSniffer/Standards 
+
+  ```
+  $ sudo ln -sv /path/to/drupalcs/Drupal $(pear config-get php_dir)/PHP/CodeSniffer/Standards 
+  ```
 
 Usage
 -----
