@@ -13,13 +13,17 @@
                     "reference": "origin/9ce8010f30b44e"
                 }
             }
+        },
+        "phpunit-official": {
+            "type": "pear",
+            "url": "http://pear.phpunit.de"
         }
     },
     "require-dev": {
-        "pear/PHP_CodeSniffer": "",
-        "pear/PHP_Timer": ""
+        "pear/PHP_CodeSniffer": "1.3.3-dev",
+        "pear-phpunit-official/PHP_Timer": "1.0.2"
     },
     "autoload": {
-        "classmap": "Timer/"
+        "classmap": [ "", "PHP/Timer.php" ]
     }
 }
