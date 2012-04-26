@@ -1,0 +1,25 @@
+{
+    "name": "patcon/drupalcs",
+    "description": "Drupal Standards for PHP_CodeSniffer",
+    "repositories": {
+        "pear-unofficial": {
+            "type": "package",
+            "package": {
+                "name": "pear/PHP_CodeSniffer",
+                "version": "1.3.3-dev",
+                "source": {
+                    "url": "git://github.com/squizlabs/PHP_CodeSniffer.git",
+                    "type": "git",
+                    "reference": "origin/9ce8010f30b44e"
+                }
+            }
+        }
+    },
+    "require-dev": {
+        "pear/PHP_CodeSniffer": "",
+        "pear/PHP_Timer": ""
+    },
+    "autoload": {
+        "classmap": "Timer/"
+    }
+}
