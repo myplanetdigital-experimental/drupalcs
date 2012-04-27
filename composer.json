@@ -11,6 +11,9 @@
                     "url": "git://github.com/squizlabs/PHP_CodeSniffer.git",
                     "type": "git",
                     "reference": "9ce8010f30b44e"
+                },
+                "autoload": {
+                    "classmap": [ "." ]
                 }
             }
         },
@@ -23,6 +26,9 @@
                     "url": "git://github.com/sebastianbergmann/php-timer.git",
                     "type": "git",
                     "reference": "1.0.2"
+                },
+                "autoload": {
+            	    "classmap": [ "PHP/" ]
                 }
             }
         }
@@ -30,8 +36,5 @@
     "require": {
         "squizlabs/PHP_CodeSniffer": "*",
         "sebastianbergmann/php-timer": "1.0.*"
-    },
-    "autoload": {
-        "classmap": [ "." ]
     }
 }
