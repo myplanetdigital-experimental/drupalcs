@@ -13,7 +13,7 @@
                     "reference": "9ce8010f30b44e"
                 },
                 "autoload": {
-                    "classmap": [ "." ]
+                    "classmap": [ "PHP_CodeSniffer.php" ]
                 }
             }
         },
@@ -28,13 +28,13 @@
                     "reference": "1.0.2"
                 },
                 "autoload": {
-            	    "classmap": [ "PHP/" ]
+            	    "classmap": [ "PHP/Timer.php" ]
                 }
             }
         }
     ],
     "require": {
         "squizlabs/PHP_CodeSniffer": "*",
-        "sebastianbergmann/php-timer": "1.0.*"
+        "sebastianbergmann/php-timer": "*"
     }
 }
